@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aumedix — Your family health partner. Ensuring access, affordability, and simplicity in healthcare for families and doctors." />
+    <title>Aumedix — Your family health partner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <img src="./assets/screens/logo.png" alt="Welcome screen" width="200" height="60"/>
+        </div>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#problem">Problem</a>
+          <a href="#solution">Solution</a>
+          <a href="#value">Value</a>
+          <a href="#how">How it works</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="section hero" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1>Your family health partner</h1>
+            <p class="subtitle">Ensuring Access, Affordability, Simplicity.</p>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="screens-gallery" aria-label="App flow screenshots">
+              <button class="screens-nav prev" aria-label="Previous screenshot">‹</button>
+              <div class="screens-track">
+                <img class="screen-shot" src="./assets/screens/1.png" alt="Welcome screen" />
+                <img class="screen-shot" src="./assets/screens/2.png" alt="Onboarding patient profile" />
+                <img class="screen-shot" src="./assets/screens/3.png" alt="Sign in screen" />
+                <img class="screen-shot" src="./assets/screens/4.png" alt="Home dashboard" />
+                <img class="screen-shot" src="./assets/screens/5.png" alt="Schedule list" />
+                <img class="screen-shot" src="./assets/screens/6.png" alt="Doctor profile" />
+                <img class="screen-shot" src="./assets/screens/7.png" alt="Doctor profile" />
+                <img class="screen-shot" src="./assets/screens/8.png" alt="Doctor profile" />
+              </div>
+              <button class="screens-nav next" aria-label="Next screenshot">›</button>
+              <div class="screens-dots" role="tablist" aria-label="Screenshots pagination">
+                <button class="dot is-active" aria-label="Go to screenshot 1" role="tab"></button>
+                <button class="dot" aria-label="Go to screenshot 2" role="tab"></button>
+                <button class="dot" aria-label="Go to screenshot 3" role="tab"></button>
+                <button class="dot" aria-label="Go to screenshot 4" role="tab"></button>
+                <button class="dot" aria-label="Go to screenshot 5" role="tab"></button>
+                <button class="dot" aria-label="Go to screenshot 6" role="tab"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trust signals -->
+      <section class="trustbar" aria-label="Trust signals">
+        <div class="container trustbar-inner">
+          <div class="trust-item"><strong>60s</strong><span>Instant video consult</span></div>
+          <div class="trust-item"><strong>10k+</strong><span>Appointments booked</span></div>
+          <div class="trust-item"><strong>500+</strong><span>Verified doctors</span></div>
+          <div class="trust-item"><strong>100+</strong><span>Clinics & partners</span></div>
+        </div>
+      </section>
+
+      <!-- About / Vision & Mission -->
+      <section class="section" id="about">
+        <div class="container cols-2">
+          <div>
+            <h2>Vision</h2>
+            <p>We’re not just building a booking app, we’re building the digital front door to healthcare.</p>
+          </div>
+          <div>
+            <h2>Mission</h2>
+            <p>Simplifying access to high quality healthcare by connecting families and providers on a single trusted platform.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Problem -->
+      <section class="section section--alt" id="problem">
+        <div class="container">
+          <h2>The Problem</h2>
+          <div class="cards cards--4">
+            <div class="card"><h3>Long waits</h3><p>Long waiting times and inefficient booking.</p></div>
+            <div class="card"><h3>Limited access</h3><p>Limited access outside major cities.</p></div>
+            <div class="card"><h3>No price clarity</h3><p>Lack of transparency in pricing.</p></div>
+            <div class="card"><h3>Clinic challenges</h3><p>Small clinics face no-shows and outdated systems.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Solution / Key Features -->
+      <section class="section" id="solution">
+        <div class="container">
+          <h2>The Solution</h2>
+          <div class="cards cards--3">
+            <div class="card">
+              <div class="icon" aria-hidden="true">⌚</div>
+              <h3>Smart Booking</h3>
+              <p>Real-time availability with reminders and family profiles.</p>
+            </div>
+            <div class="card">
+              <div class="icon" aria-hidden="true">📞</div>
+              <h3>Hybrid Care</h3>
+              <p>In-clinic or teleconsultation — you choose.</p>
+            </div>
+            <div class="card">
+              <div class="icon" aria-hidden="true">🔗</div>
+              <h3>Connected Care</h3>
+              <p>Doctors, labs, pharmacies, and follow-ups in one flow.</p>
+            </div>
+          </div>
+          <div class="cards cards--3">
+            <div class="card">
+              <div class="icon" aria-hidden="true">💲</div>
+              <h3>Transparent Pricing</h3>
+              <p>Clear costs and affordable family plans.</p>
+            </div>
+            <div class="card">
+              <div class="icon" aria-hidden="true">🧰</div>
+              <h3>SaaS for Clinics</h3>
+              <p>Bookings, payments, and records with no-shows reduced.</p>
+            </div>
+            <div class="card">
+              <div class="icon" aria-hidden="true">🔒</div>
+              <h3>Trust & Security</h3>
+              <p>Privacy-first platform with secure data handling.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Value Proposition -->
+      <section class="section section--alt" id="value">
+        <div class="container cols-2">
+          <div>
+            <h2>For Patients</h2>
+            <ul class="checklist">
+              <li>24/7 easy booking</li>
+              <li>Access to trusted doctors nearby</li>
+              <li>Affordable consultation and telemedicine</li>
+              <li>End‑to‑end care — doctor → lab → pharmacy → delivery</li>
+              <li>Family health profile with reminders</li>
+            </ul>
+          </div>
+          <div>
+            <h2>For Doctors & Clinics</h2>
+            <ul class="checklist">
+              <li>Grow patient base and reduce no‑shows</li>
+              <li>Digital clinic management tools</li>
+              <li>Increased revenue via online consultations</li>
+              <li>Visibility and branding support</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Target Audience -->
+      <section class="section" id="audience">
+        <div class="container">
+          <h2>Who We Serve</h2>
+          <div class="chips">
+            <span class="chip">Urban families</span>
+            <span class="chip">Working professionals</span>
+            <span class="chip">Elderly patients</span>
+            <span class="chip">Doctors & specialists</span>
+            <span class="chip">Clinics & hospitals</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Works -->
+      <section class="section section--alt" id="how">
+        <div class="container">
+          <h2>How it works</h2>
+          <div class="steps">
+            <div class="step"><span class="step-index">1</span><h3>Find & book instantly</h3><p>Search, compare, and reserve in seconds.</p></div>
+            <div class="step"><span class="step-index">2</span><h3>Choose care mode</h3><p>In‑clinic or teleconsultation — flexible for you.</p></div>
+            <div class="step"><span class="step-index">3</span><h3>Connected follow‑ups</h3><p>Labs, pharmacies, and reminders handled.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team -->
+      <!-- <section class="section" id="team">
+        <div class="container">
+          <h2>Our Team</h2>
+          <div class="team">
+            <div class="member"><div class="avatar" aria-hidden="true">SP</div><div class="meta"><div class="name">Sanath Pannavenna</div><div class="role">Founder</div></div></div>
+            <div class="member"><div class="avatar" aria-hidden="true">SM</div><div class="meta"><div class="name">Sasitha Madhushanka</div><div class="role">CTO</div></div></div>
+            <div class="member"><div class="avatar" aria-hidden="true">LA</div><div class="meta"><div class="name">Lahiru Amaratunge</div><div class="role">Head of Operations</div></div></div>
+            <div class="member"><div class="avatar" aria-hidden="true">SW</div><div class="meta"><div class="name">Sampath Wikramashighe</div><div class="role">Strategic Consultant</div></div></div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Testimonials -->
+      <section class="section section--alt" id="testimonials">
+        <div class="container">
+          <h2>What our users say</h2>
+          <div class="testimonials">
+            <article class="tcard">
+              <p>“Very easy to book and manage appointments. Teleconsult saved us a late-night hospital trip.”</p>
+              <div class="tmeta"><span class="tname">Nuwan</span><span class="trole">Parent</span></div>
+            </article>
+            <article class="tcard">
+              <p>“Clean UI and fast booking. My clinic reduced no‑shows with reminders and online payments.”</p>
+              <div class="tmeta"><span class="tname">Dr. Perera</span><span class="trole">GP</span></div>
+            </article>
+            <article class="tcard">
+              <p>“Prescription to doorstep delivery made follow‑ups simple for my elderly parents.”</p>
+              <div class="tmeta"><span class="tname">Shalini</span><span class="trole">Caregiver</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQs -->
+      <section class="section" id="faqs">
+        <div class="container">
+          <h2>FAQs</h2>
+          <div class="faqs">
+            <div class="faq-item">
+              <button class="faq-q" aria-expanded="false">Is teleconsultation available 24/7?</button>
+              <div class="faq-a" hidden>Yes. You can consult verified doctors any time with secure video.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q" aria-expanded="false">How do clinics reduce no‑shows?</button>
+              <div class="faq-a" hidden>Automated reminders, upfront payments, and easy rescheduling reduce no‑shows.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q" aria-expanded="false">Are prices transparent?</button>
+              <div class="faq-a" hidden>Yes. You see consultation fees before booking and can choose family plans.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Final CTA -->
+      <section class="section cta-final" id="cta">
+        <div class="container cta-final-inner">
+          <div>
+            <h2>Your health, one tap away.</h2>
+            <p>Join thousands simplifying their healthcare journey with Aumedix.</p>
+          </div>
+          <div class="cta-actions">
+            <a href="#" class="store-badge" aria-label="Download on the App Store"> iOS</a>
+            <a href="#" class="store-badge" aria-label="Get it on Google Play">▶ Android</a>
+            <a href="#" class="btn btn--ghost">Partner with Us</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand small"><span class="brand-mark" aria-hidden="true">◆</span><span class="brand-name">Aumedix</span></div>
+          <p class="footer-copy">Your family health partner. Access, affordability, simplicity.</p>
+        </div>
+        <nav aria-label="Footer">
+          <h3 class="footer-title">For Patients</h3>
+          <ul class="footer-list">
+            <li><a href="#solution">Book appointment</a></li>
+            <li><a href="#how">Teleconsultation</a></li>
+            <li><a href="#value">Family plans</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Footer">
+          <h3 class="footer-title">For Clinics</h3>
+          <ul class="footer-list">
+            <li><a href="#solution">SaaS tools</a></li>
+            <li><a href="#value">Branding & visibility</a></li>
+            <li><a href="#cta">Partner with us</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Footer">
+          <h3 class="footer-title">Company</h3>
+          <ul class="footer-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Aumedix. All rights reserved.</span>
+        <div class="socials" aria-label="Social links">
+          <a href="#" aria-label="Facebook">Fb</a>
+          <a href="#" aria-label="Twitter">Tw</a>
+          <a href="#" aria-label="LinkedIn">In</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+  </html>
+
+
